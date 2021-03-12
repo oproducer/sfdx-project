@@ -8,7 +8,7 @@ global with sharing class DreamHouseSampleDataController {
         String myAccount='';
         If(myAccount != '')
         {
-            SELECT Name, Phone FROM Account LIMIT 10;
+            SELECT Name, Phone FROM Account LIMIT 100;
         }
     }    
 }
